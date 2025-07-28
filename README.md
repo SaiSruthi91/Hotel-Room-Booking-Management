@@ -1,4 +1,4 @@
-# 🏨 Hotel Room Booking Management System
+# 🏨 Hotel Room Booking Management
 
 **A Full-Stack Hotel Booking Web Application built using Flask, SQLite, and HTML/CSS**
 
