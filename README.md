@@ -44,33 +44,28 @@ The app uses **Flask (Python)** for backend, **SQLite** for database, and **HTML
 ## 📁 Project Structure
 
 Hotel-Room-Booking-Management/
-├── app.py # Main Flask app
-├── database.db # SQLite database
-
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
+├── app.py                      # Main Flask application
+├── database.db                 # SQLite database
+├── README.md                   # Project documentation
 
 ├── static/
-│ ├── css/
-│ │ └── style.css # Custom styles
-│ └── images/ # Image assets
+│   ├── food_images/            # Food-related image assets
+│   └── images/                 # General UI images
 
 ├── templates/
-│ ├── index.html # Homepage with Register/Login
-│ ├── register.html # Staff/Guest registration
-│ ├── login.html # Login page
-│ ├── staff_dashboard.html # Staff hotel management dashboard
-│ ├── guest_dashboard.html # Guest hotel booking dashboard
-│ ├── book_hotel.html # Hotel room and food booking form
-│ ├── hotel_list.html # Display available hotels
+│   ├── book.html               # Guest hotel booking form
+│   ├── guest_dashboard.html    # Guest dashboard
+│   ├── home.html               # Home page
+│   ├── hotel_list.html         # List of available hotels
+│   ├── register.html           # Registration page
+│   ├── signin.html             # Login page
+│   ├── staff_add_hotel.html    # Staff page to add hotel
+│   ├── staff_add_room.html     # Staff page to add rooms
+│   ├── staff_base.html         # Base template for staff pages
+│   ├── staff_dashboard.html    # Staff dashboard
+│   ├── staff_foods.html        # Staff page to manage food items
+│   └── staff_manage_bookings.html  # Staff booking management page
 
-└── venv/ # Virtual environment
-
-yaml
-Copy
-Edit
-
----
 
 ## 🖼️ Screenshots
 
@@ -82,32 +77,20 @@ Edit
 
 ---
 
-## 🚀 How to Run the Project
-
-### 1️⃣ Clone the Repository
-
-```bash
+🚀 How to Run the Project
+1️⃣ Clone the Repository
 git clone https://github.com/yourusername/Hotel-Room-Booking-Management.git
 cd Hotel-Room-Booking-Management
-2️⃣ Set Up Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-venv\Scripts\activate  # On Windows
-# OR
-source venv/bin/activate  # On macOS/Linux
-3️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4️⃣ Run the Application
-bash
-Copy
-Edit
+2️⃣ Install Dependencies
+Make sure Flask is installed:
+
+pip install flask
+(If you have a requirements.txt, you can still use pip install -r requirements.txt)
+
+3️⃣ Run the Application
 python app.py
-Open your browser and go to: http://127.0.0.1:5000
+Then open your browser and go to:
+👉 http://127.0.0.1:5000
 
 🔮 Future Enhancements
 Add booking cancellation and modification
@@ -124,11 +107,5 @@ Payment integration (e.g., Razorpay/Stripe)
 Sai Sruthi Karnatakapu
 📧 k.saisruthi913@gmail.com
 🔗 LinkedIn
-
-yaml
-Copy
-Edit
-
----
 
 Let me know if you want the badges updated with your actual GitHub repo, or if you’d like help adding real screenshot image links.
