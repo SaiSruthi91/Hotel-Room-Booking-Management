@@ -42,7 +42,7 @@ The app uses **Flask (Python)** for backend, **SQLite** for database, and **HTML
 ---
 
 ## 📁 Project Structure
-
+````
 Hotel-Room-Booking-Management/
 ├── app.py                      # Main Flask application
 ├── database.db                 # SQLite database
@@ -65,7 +65,9 @@ Hotel-Room-Booking-Management/
 │   ├── staff_dashboard.html    # Staff dashboard
 │   ├── staff_foods.html        # Staff page to manage food items
 │   └── staff_manage_bookings.html  # Staff booking management page
+````
 
+---
 
 ## 🖼️ Screenshots
 
@@ -78,34 +80,42 @@ Hotel-Room-Booking-Management/
 ---
 
 🚀 How to Run the Project
+
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/yourusername/Hotel-Room-Booking-Management.git
 cd Hotel-Room-Booking-Management
-2️⃣ Install Dependencies
-Make sure Flask is installed:
+```
 
+2️⃣ Install Dependencies
+```bash
+Make sure Flask is installed:
 pip install flask
 (If you have a requirements.txt, you can still use pip install -r requirements.txt)
+```
 
 3️⃣ Run the Application
+```bash
 python app.py
 Then open your browser and go to:
 👉 http://127.0.0.1:5000
+```
+
+---
 
 🔮 Future Enhancements
+
 Add booking cancellation and modification
-
 Hotel reviews and ratings
-
 Admin panel for system-wide controls
-
 Email confirmation for bookings
-
 Payment integration (e.g., Razorpay/Stripe)
 
-📬 Contact
-Sai Sruthi Karnatakapu
-📧 k.saisruthi913@gmail.com
-🔗 LinkedIn
+--- 
 
-Let me know if you want the badges updated with your actual GitHub repo, or if you’d like help adding real screenshot image links.
+📬 Contact
+**Sai Sruthi Karnatakapu**
+📧 [k.saisruthi913@gmail.com](mailto:k.saisruthi913@gmail.com)
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/saisruthi-karnatakapu/)
+
+
