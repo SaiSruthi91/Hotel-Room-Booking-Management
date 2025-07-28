@@ -73,9 +73,19 @@ Hotel-Room-Booking-Management/
 
 > *(Add actual screenshots or mockups by uploading them and linking below)*
 
-| ![Home Page](link_to_homepage_screenshot) | ![Hotel List](link_to_hotel_list_screenshot) |
-|------------------------------------------|---------------------------------------------|
-| ![Staff Dashboard](link_to_staff_dashboard) | ![Booking Page](link_to_booking_page) |
+| Page | Screenshot |
+|------|------------|
+| 🏠 Home | ![Home](https://github.com/user-attachments/assets/18f82e3a-68bd-4dfb-af00-b504cfcf4bc9) |
+| 🔐 Signin | ![Sign in](https://github.com/user-attachments/assets/bdbfe0e7-4a88-4cde-80d9-4afc5046a368) |
+| 📝 Register | ![Register](https://github.com/user-attachments/assets/0d877e35-51f8-4b35-8fc5-29137dbc74bd) |
+| 👤 Guest Dashboard | ![Guest Dashboard](https://github.com/user-attachments/assets/31e813a9-f080-4d9f-a6f4-f425474d36ee) |
+| 🏨 Available Hotels | ![Available hotels](https://github.com/user-attachments/assets/25372ef2-8ca8-4106-9e1e-94d225b5f04c) |
+| 📄 Book | ![Book](https://github.com/user-attachments/assets/90c4d306-f2d5-4b98-a065-38d83f17cf2d) |
+| 📊 Staff Dashboard | ![Staff Dashboard](https://github.com/user-attachments/assets/9d8bbcaf-c56d-48d3-92f4-19c91bb36708) |
+| ➕ Add Hotel | ![Add hotel](https://github.com/user-attachments/assets/3477f198-c45e-4976-a4e0-b18fe71e54f2) |
+| 🛏️ Add Room | ![Add room](https://github.com/user-attachments/assets/2507a821-085b-4729-b417-8fcabeaa0b36) |
+| 🍽️ Add Food | ![Add food](https://github.com/user-attachments/assets/35770cc6-bc47-49d9-87a5-1a501cd72a05) | 
+| 📑 Manage Bookings | ![Manage Bookings](https://github.com/user-attachments/assets/226371d5-63df-48af-8cc9-beaef7022edc) |
 
 ---
 
@@ -91,7 +101,6 @@ cd Hotel-Room-Booking-Management
 ```bash
 Make sure Flask is installed:
 pip install flask
-(If you have a requirements.txt, you can still use pip install -r requirements.txt)
 ```
 
 3️⃣ Run the Application
@@ -105,17 +114,18 @@ Then open your browser and go to:
 
 🔮 Future Enhancements
 
-Add booking cancellation and modification
-Hotel reviews and ratings
-Admin panel for system-wide controls
-Email confirmation for bookings
-Payment integration (e.g., Razorpay/Stripe)
+- Add booking cancellation and modification
+- Hotel reviews and ratings
+- Admin panel for system-wide controls
+- Email confirmation for bookings
+- Payment integration (e.g., Razorpay/Stripe)
 
 --- 
 
-📬 Contact
+##📬 Contact
+
 **Sai Sruthi Karnatakapu**
 📧 [k.saisruthi913@gmail.com](mailto:k.saisruthi913@gmail.com)
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/saisruthi-karnatakapu/)
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/saisruthikarnatakapu/)
 
-
+---
