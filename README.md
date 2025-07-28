@@ -71,8 +71,6 @@ Hotel-Room-Booking-Management/
 
 ## 🖼️ Screenshots
 
-> *(Add actual screenshots or mockups by uploading them and linking below)*
-
 | Page | Screenshot |
 |------|------------|
 | 🏠 Home | ![Home](https://github.com/user-attachments/assets/18f82e3a-68bd-4dfb-af00-b504cfcf4bc9) |
